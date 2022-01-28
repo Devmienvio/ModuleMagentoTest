@@ -2,10 +2,10 @@
   "name": "mienviotest/moduletest",
   "description": "Magento 2 Module Test",
   "require": {
-    "php": "~5.6.0|~7.0.0"
+    "php": "~7.2.0||~7.3.0||~7.4.0"
   },
   "type": "magento2-module",
-  "version": "1.0.0",  
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Mienvio",
