@@ -1,9 +1,14 @@
 {
   "name": "mienviotest/moduletest",
   "description": "Magento 2 Module Test",
+  "keywords": [
+    "magento",
+    "mienvio"
+  ],
   "require": {
-    "php": "~7.2.0||~7.3.0||~7.4.0"
+    "php": ">=7.2.0"
   },
+  "license": "MIT",
   "type": "magento2-module",
   "version": "1.0.0",
   "authors": [
@@ -11,7 +16,7 @@
       "name": "Mienvio",
       "email": "dev@mienvio.mx",
       "homepage": "https://www.mienvio.com",
-      "role": "Developer"
+      "role": "Developer Team"
     }
   ],
   "autoload": {
