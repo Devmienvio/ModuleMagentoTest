@@ -1,0 +1,28 @@
+{
+  "name": "mienviotest/moduletest",
+  "description": "Magento 2 Module Test",
+  "require": {
+    "php": "~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT-Licence"
+  ],
+  "authors": [
+    {
+      "name": "Mienvio",
+      "email": "dev@mienvio.mx",
+      "homepage": "https://www.mienvio.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MienvioTest\\ModuleTest\\": ""
+    }
+  }
+}
