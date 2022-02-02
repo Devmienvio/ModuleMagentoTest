@@ -7,7 +7,7 @@
   ],
   "require": {
     "php": ">=7.2.0",
-    "magento/framework": "^102.0"
+    "magento/framework": "*"
   },
   "license": "MIT",
   "type": "magento2-module",
@@ -22,10 +22,10 @@
   ],
   "autoload": {
     "files": [
-      "registration.php"
+      "ModuleTest/registration.php"
     ],
     "psr-4": {
-      "MienvioTest\\ModuleTest\\": ""
+      "MienvioTest\\ModuleTestPlugin\\": "ModuleTest"
     }
   }
 }
