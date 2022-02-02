@@ -1,13 +1,12 @@
 {
-  "name": "mienviotest/moduletest",
+  "name": "mienviotest/moduletesting",
   "description": "Magento 2 Module Test",
   "keywords": [
     "magento",
     "mienvio"
   ],
   "require": {
-    "php": ">=7.2.0",
-    "magento/framework": ">=100.0.20"
+    "php": ">=7.2.0"    
   },
   "license": "MIT",
   "type": "magento2-module",
